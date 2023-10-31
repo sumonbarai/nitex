@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.active {
+  background-color: #f7c25d !important;
+}
+.navLink.active {
+  background-color: #f7c25d !important;
+}
+
+.menu .navLink:hover {
+  background-color: #f7c25d !important;
+}
+
+/* custom */
+.overlay-parent {
+  position: relative;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: #0000007e;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.h-fixed {
+  height: 32rem; /* Adjust the height to your needs */
+}
